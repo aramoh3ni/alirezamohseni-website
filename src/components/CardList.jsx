@@ -9,7 +9,6 @@ import {
     Link
 } from '@chakra-ui/react'
 
-import { FaExternalLinkAlt } from 'react-icons/fa'
 
 export const CardList = ({
     cardWith,

@@ -4,7 +4,7 @@ import {
 
 
 
-import { Header, NavMenu, CardList  } from "./components";
+import { Header, NavMenu, CardList, Footer } from "./components";
 
 export default function App() {
 
@@ -22,8 +22,8 @@ export default function App() {
 
         <CardList cardWith={"4xl"} cardTitle="Projects" />
 
-
       </Container>
+      <Footer maxWith="4xl" />
     </>
   );
 }

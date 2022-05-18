@@ -12,12 +12,8 @@ import {
 import {
     FaSun,
     FaMoon,
-    FaInstagram,
     FaGithub,
-    FaLinkedin,
-    FaSmileBeam,
-    FaSmileWink,
-    FaPhoneVolume,
+    FaLinkedinIn
 } from 'react-icons/fa'
 
 import {
@@ -37,13 +33,13 @@ export const NavMenu = (props) => {
 
                         <Avatar size='sm' mt={1} mr={4} name='Alireza Mohseni' src='https://avatars.githubusercontent.com/u/61162112?v=4' />{' '}
 
-                        <Button mr={2} icon={<FaSmileBeam />}>
+                        <Button mr={2}>
                             About
                         </Button>
-                        <Button mr={2} icon={<FaSmileWink />} >
+                        <Button mr={2}>
                             Blog
                         </Button>
-                        <Button mr={2} icon={<FaPhoneVolume />}>
+                        <Button mr={2}>
                             Contact
                         </Button>
                     </Heading>
@@ -56,13 +52,7 @@ export const NavMenu = (props) => {
                     />
                     <IconButton
                         ml={2}
-                        icon={<FaInstagram />}
-                        isRound={true}
-                        variant='ghost'
-                    />
-                    <IconButton
-                        ml={2}
-                        icon={<FaLinkedin />}
+                        icon={<FaLinkedinIn />}
                         isRound={true}
                         variant='ghost'
                     />
