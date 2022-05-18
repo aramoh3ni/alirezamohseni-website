@@ -1,12 +1,10 @@
 import {
     Flex,
     VStack,
-    Heading,
     IconButton,
     Spacer,
     Avatar,
     Container,
-    Button
 } from "@chakra-ui/react";
 
 import {
@@ -20,6 +18,8 @@ import {
     useColorMode,
 } from "@chakra-ui/react";
 
+import { Link } from "react-router-dom";
+
 export const NavMenu = (props) => {
     const { maxWith } = props;
 
@@ -29,20 +29,18 @@ export const NavMenu = (props) => {
         <VStack shadow={'sm'} bg='whiteAlpha.100' p={2}>
             <Container maxW={maxWith}>
                 <Flex w={"100%"}>
-                    <Heading size='md' fontWeight='semibold' >
 
                         <Avatar size='sm' mt={1} mr={4} name='Alireza Mohseni' src='https://avatars.githubusercontent.com/u/61162112?v=4' />{' '}
-
-                        <Button mr={2}>
+                        
+                        <Link to="/about" style={{margin:"10px"}} className="nav-item-desktop-view">
                             About
-                        </Button>
-                        <Button mr={2}>
+                        </Link>
+                        <Link to="/posts" style={{margin:"10px"}} className="nav-item-desktop-view">
                             Blog
-                        </Button>
-                        <Button mr={2}>
+                        </Link>
+                        <Link to="/contact" style={{margin:"10px"}} className="nav-item-desktop-view">
                             Contact
-                        </Button>
-                    </Heading>
+                        </Link>
                     <Spacer />
                     <IconButton
                         ml={2}

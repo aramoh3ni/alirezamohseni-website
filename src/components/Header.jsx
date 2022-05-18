@@ -4,7 +4,6 @@ import {
     Heading,
     Text,
     IconButton,
-    Badge,
     Icon
 
 } from '@chakra-ui/react'
@@ -26,7 +25,7 @@ export const Header = () => {
             <Box gap={4} textAlign='center'>
                     <Avatar size='2xl' name='Alireza Mohseni' src='https://avatars.githubusercontent.com/u/61162112?v=4' />
                     <Heading as='h4' mt={4}>
-                        Hey there! 🖐️
+                        Hey there! 👋
                     </Heading>
                     <Text fontSize='xl' pr={2} mt={3} mb={4}>
                         I am <u>Alireza Mohseni</u>, Software Developer From <i>#Afghanistan</i>. 

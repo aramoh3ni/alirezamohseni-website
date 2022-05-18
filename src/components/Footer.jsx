@@ -4,9 +4,7 @@ import {
     IconButton,
     Spacer,
     Container,
-    Button,
     Text,
-    LinkBox
 } from "@chakra-ui/react";
 
 import {
@@ -19,7 +17,7 @@ export const Footer = () => {
     return (
         <VStack outline='1px'>
             <Container>
-                <Flex>
+                <Flex w="100%">
                     <a href="#" style={{margin:'10px'}} pl='4' variant='link'>
                         About
                     </a>

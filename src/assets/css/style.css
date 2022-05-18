@@ -3,4 +3,12 @@ body {
     padding: 0;
     margin: 0;
 }
+.nav-item-desktop-view {
 
+}
+
+@media screen and (max-width: 768px) {
+   .nav-item-desktop-view {
+       display: none;
+   } 
+}
