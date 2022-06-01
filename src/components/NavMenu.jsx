@@ -10,8 +10,6 @@ import {
 import {
     FaSun,
     FaMoon,
-    FaGithub,
-    FaLinkedinIn
 } from 'react-icons/fa'
 
 import {
@@ -19,6 +17,7 @@ import {
 } from "@chakra-ui/react";
 
 import { Link } from "react-router-dom";
+import { Social } from "../components";
 
 export const NavMenu = (props) => {
     const { maxWith } = props;
@@ -35,6 +34,9 @@ export const NavMenu = (props) => {
                         <Link to="/about" style={{margin:"10px"}} className="nav-item-desktop-view">
                             About
                         </Link>
+                        <Link to="/projects" style={{margin:"10px"}} className="nav-item-desktop-view">
+                            Projects 🚀
+                        </Link>
                         <Link to="/posts" style={{margin:"10px"}} className="nav-item-desktop-view">
                             Blog
                         </Link>
@@ -42,19 +44,9 @@ export const NavMenu = (props) => {
                             Contact
                         </Link>
                     <Spacer />
+                    <Social small />
                     <IconButton
                         ml={2}
-                        icon={<FaGithub />}
-                        isRound={true}
-                        variant='ghost'
-                    />
-                    <IconButton
-                        ml={2}
-                        icon={<FaLinkedinIn />}
-                        isRound={true}
-                        variant='ghost'
-                    />
-                    <IconButton
                         color={isDark ? "yellow.500" : "blue.400"}
                         icon={!isDark ? <FaMoon /> : <FaSun />}
                         isRound='true'

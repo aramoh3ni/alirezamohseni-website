@@ -10,9 +10,8 @@ import {
 
 
 export const CardList = ({ data }) => {
-    console.log(data)
-    return data.map(item => (
-        <Box borderWidth='1px' rounded='md' overflow='hidden'>
+    return data.map((item, i) => (
+        <Box key={i} borderWidth='1px' rounded='md' overflow='hidden'>
             <Image src={item.imageUrl} alt={item.title} />
             <LinkBox as='article' p='5' >
 
