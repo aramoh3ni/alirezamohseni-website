@@ -25,7 +25,7 @@ export const NavMenu = (props) => {
     const { colorMode, toggleColorMode } = useColorMode();
     const isDark = colorMode === 'dark';
     return (
-        <VStack shadow={'sm'} bg='whiteAlpha.100' p={2}>
+        <VStack shadow={'sm'} bg='blackAlpha.100' p={2}>
             <Container maxW={maxWith}>
                 <Flex w={"100%"}>
 

@@ -15,7 +15,7 @@ export default function App() {
   return (
     <>
       <NavMenu maxWith={maxWith} />
-      <Container maxW={maxWith} mt={10} mb={10} style={{height:"80vh"}}>
+      <Container maxW={maxWith} mt={10} mb={10}>
         {/* <Header /> */}
 
         <Router />

@@ -25,3 +25,14 @@ h4 {
        display: none;
    } 
 }
+
+.linkText {
+    color: rgba(145, 28, 240, 0.801);
+    font-style: italic;
+    cursor: pointer;
+
+}
+
+.linkText:hover {
+    color: rgba(145, 28, 240, 0.466);
+}
