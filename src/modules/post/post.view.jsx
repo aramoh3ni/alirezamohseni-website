@@ -52,7 +52,6 @@ export const Posts = () => {
             <SimpleGrid columns={[2, null, 3]} spacing='10px'>
                 <CardList data={data.data} />
             </SimpleGrid>
-
         </>
     )
 }

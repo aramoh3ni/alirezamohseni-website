@@ -13,7 +13,7 @@ export default function App() {
   const maxWith = "850px"
 
   return (
-    <>
+    <div className="main-container">
       <NavMenu maxWith={maxWith} />
       <Container maxW={maxWith} mt={10} mb={10}>
         {/* <Header /> */}
@@ -24,7 +24,7 @@ export default function App() {
 
       </Container>
       <Footer maxWith="4xl" />
-    </>
+    </div>
   );
 }
 

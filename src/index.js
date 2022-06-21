@@ -7,6 +7,8 @@ import { ChakraProvider, ColorModeScript } from '@chakra-ui/react';
 
 import "./assets/css/style.css"
 
+// Disable Right Click
+document.addEventListener('contextmenu', event => event.preventDefault());
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -23,9 +23,6 @@ export const Footer = () => {
                     <Link to="/posts" style={{margin:'10px'}} pl='4' variant='link'>
                         Blog
                     </Link>
-                    <Link to="/contact" style={{margin:'10px'}} pl='4' variant='link'>
-                        Contact
-                    </Link>
                     <Spacer />
                     <Social small />
                 </Flex>

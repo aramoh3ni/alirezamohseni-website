@@ -12,7 +12,7 @@ export const user = () => {
     // Get User short detail
     fetchUser = async () => {
         try {
-            await axios.get(url + username)
+            await axios.get(url +"/"+ username)
             .then(response => console.log(response.data))
         } catch (err) {
             console.log(err)

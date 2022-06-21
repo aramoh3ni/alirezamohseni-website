@@ -40,9 +40,6 @@ export const NavMenu = (props) => {
                         <Link to="/posts" style={{margin:"10px"}} className="nav-item-desktop-view">
                             Blog
                         </Link>
-                        <Link to="/contact" style={{margin:"10px"}} className="nav-item-desktop-view">
-                            Contact
-                        </Link>
                     <Spacer />
                     <Social small />
                     <IconButton

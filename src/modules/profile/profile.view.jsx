@@ -21,18 +21,18 @@ export const Profile = () => {
                     Hey there! 👋
                 </Heading>
                 <Text fontSize='xl' p={2} mt={5} mb={45} >
-                    This is <span className='linkText'>Alireza Mohseni</span>, From <i className='linkText'>#Afghanistan</i>.
+                    This is <span className='linkText'>Alireza Mohseni</span>
                     <br />
-                    <Text align="justify" mt={2}>
-                    I am a software developer working with web base applications using (<Link color='green.400'>Python</Link>, <Link color="purple.400">PHP</Link>, <Link color="yellow.400">JavaScript</Link>) languages, (<Link color="green.300">Django</Link>, <Link color="blue.200">React.JS</Link>, <Link color="orange.300">Svelte.JS</Link>, <Link color="blue.400">Material UI</Link>, <Link color='pink.400'>Bootstrap</Link>, <Link color="green.500">Chakra UI</Link>, <Link color="blue.400">Ant Design</Link>) and etc. Libraries and Frameworks.
+                    <Text as='span' align="justify" mt={2}>
+                        I am a software developer working with web base applications using (<Link href='https://python.org' color='green.400'>Python</Link>, <Link href='https://www.php.net/docs.php' color="purple.400">PHP</Link>, <Link href='https://www.javascript.com/' color="yellow.400">JavaScript</Link>) languages, (<Link color="green.300">Django</Link>, <Link color="blue.200">React.JS</Link>, <Link color="orange.300">Svelte.JS</Link>, <Link color="blue.400">Material UI</Link>, <Link color='pink.400'>Bootstrap</Link>, <Link color="green.500">Chakra UI</Link>, <Link color="blue.400">Ant Design</Link>) and etc. Libraries and Frameworks.
                     </Text>
                     <br />
-                    I ❤️ programming and it’s my everything in my real life. so trying to share my knowledge and experience as match I can for everyone.
+                    I ❤️ programming and that's all I have in my real life. So I try to share my knowledge and experience with everyone as much as I can.
                     <br />
                 </Text>
                 <Social />
                 <Text fontSize="sm">
-                Forward to NASA 🚀 god 🙏 walling.
+                    Long live humanity ✌️
                 </Text>
             </div>
         </Box>
